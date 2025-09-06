@@ -145,7 +145,7 @@ Mushrooms and yellow flowers dot the path, leading further to the west.
 + [Speak with the mysterious phone person] -> room_2_west_talk_options
 
 == room_3_west == //NEW
-To the right, you can see an opening. {grabbed_pick: |A pickaxe lies near you, propped up against the wall.}
+To the right, you can see an opening. {has_pickaxe: |A pickaxe lies near you, propped up against the wall.}
 
 { add_time () }
 
@@ -160,6 +160,7 @@ To the right, you can see an opening. {grabbed_pick: |A pickaxe lies near you, p
 Besides the cobwebbing on it, it looks brand new. Odd, considering how old everything around it is. 
 
 At least you have something to defend yourself, if needed.
+~ has_pickaxe = true
 * [Continue] -> room_3_west
 
 == room_4_west == //NEW
